@@ -21,6 +21,8 @@
 		4670DC3B211D0666009202EF /* item2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC3D211D0666009202EF /* item2.pdf */; };
 		4670DC40211D08DE009202EF /* PanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC3F211D08DE009202EF /* PanGestureViewController.m */; };
 		4670DC43211D08FB009202EF /* PinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC42211D08FB009202EF /* PinchGestureViewController.m */; };
+		4670DC46211D40DB009202EF /* TapGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC45211D40DB009202EF /* TapGestureViewController.m */; };
+		4670DC49211D492C009202EF /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC48211D492C009202EF /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		4670DC3F211D08DE009202EF /* PanGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureViewController.m; sourceTree = "<group>"; };
 		4670DC41211D08FB009202EF /* PinchGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchGestureViewController.h; sourceTree = "<group>"; };
 		4670DC42211D08FB009202EF /* PinchGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchGestureViewController.m; sourceTree = "<group>"; };
+		4670DC44211D40DB009202EF /* TapGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapGestureViewController.h; sourceTree = "<group>"; };
+		4670DC45211D40DB009202EF /* TapGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGestureViewController.m; sourceTree = "<group>"; };
+		4670DC47211D492C009202EF /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		4670DC48211D492C009202EF /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,16 @@
 				4670DC18211D03F6009202EF /* AppDelegate.h */,
 				4670DC19211D03F6009202EF /* AppDelegate.m */,
 				4670DC1B211D03F6009202EF /* ViewController.h */,
+				4670DC44211D40DB009202EF /* TapGestureViewController.h */,
+				4670DC45211D40DB009202EF /* TapGestureViewController.m */,
 				4670DC3E211D08DE009202EF /* PanGestureViewController.h */,
 				4670DC3F211D08DE009202EF /* PanGestureViewController.m */,
 				4670DC41211D08FB009202EF /* PinchGestureViewController.h */,
 				4670DC42211D08FB009202EF /* PinchGestureViewController.m */,
 				4670DC1C211D03F6009202EF /* ViewController.m */,
 				4670DC1E211D03F6009202EF /* Main.storyboard */,
+				4670DC47211D492C009202EF /* SwipeViewController.h */,
+				4670DC48211D492C009202EF /* SwipeViewController.m */,
 				4670DC21211D03F7009202EF /* Assets.xcassets */,
 				4670DC30211D0416009202EF /* item1.pdf */,
 				4670DC3D211D0666009202EF /* item2.pdf */,
@@ -185,9 +195,11 @@
 			files = (
 				4670DC43211D08FB009202EF /* PinchGestureViewController.m in Sources */,
 				4670DC1D211D03F6009202EF /* ViewController.m in Sources */,
+				4670DC46211D40DB009202EF /* TapGestureViewController.m in Sources */,
 				4670DC28211D03F7009202EF /* main.m in Sources */,
 				4670DC40211D08DE009202EF /* PanGestureViewController.m in Sources */,
 				4670DC1A211D03F6009202EF /* AppDelegate.m in Sources */,
+				4670DC49211D492C009202EF /* SwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
