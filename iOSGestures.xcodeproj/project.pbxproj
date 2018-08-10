@@ -23,6 +23,7 @@
 		4670DC43211D08FB009202EF /* PinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC42211D08FB009202EF /* PinchGestureViewController.m */; };
 		4670DC46211D40DB009202EF /* TapGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC45211D40DB009202EF /* TapGestureViewController.m */; };
 		4670DC49211D492C009202EF /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC48211D492C009202EF /* SwipeViewController.m */; };
+		4670DC4C211D4EB1009202EF /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC4B211D4EB1009202EF /* RotateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		4670DC45211D40DB009202EF /* TapGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGestureViewController.m; sourceTree = "<group>"; };
 		4670DC47211D492C009202EF /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		4670DC48211D492C009202EF /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		4670DC4A211D4EB1009202EF /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		4670DC4B211D4EB1009202EF /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				4670DC42211D08FB009202EF /* PinchGestureViewController.m */,
 				4670DC1C211D03F6009202EF /* ViewController.m */,
 				4670DC1E211D03F6009202EF /* Main.storyboard */,
+				4670DC4A211D4EB1009202EF /* RotateViewController.h */,
+				4670DC4B211D4EB1009202EF /* RotateViewController.m */,
 				4670DC47211D492C009202EF /* SwipeViewController.h */,
 				4670DC48211D492C009202EF /* SwipeViewController.m */,
 				4670DC21211D03F7009202EF /* Assets.xcassets */,
@@ -200,6 +205,7 @@
 				4670DC40211D08DE009202EF /* PanGestureViewController.m in Sources */,
 				4670DC1A211D03F6009202EF /* AppDelegate.m in Sources */,
 				4670DC49211D492C009202EF /* SwipeViewController.m in Sources */,
+				4670DC4C211D4EB1009202EF /* RotateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

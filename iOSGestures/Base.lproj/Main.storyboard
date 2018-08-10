@@ -68,6 +68,22 @@
             </objects>
             <point key="canvasLocation" x="1001" y="414"/>
         </scene>
+        <!--Rotate-->
+        <scene sceneID="8k9-K8-A8E">
+            <objects>
+                <viewController id="x4h-zY-vTI" customClass="RotateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hib-am-2KG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="c8Y-xI-akM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotate" image="item3" id="lkH-WU-SeS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9UE-xO-gkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2399" y="600"/>
+        </scene>
         <!--Swipe-->
         <scene sceneID="0ih-hb-crR">
             <objects>
@@ -134,6 +150,7 @@
                         <segue destination="HlJ-ix-UeH" kind="relationship" relationship="viewControllers" id="i9u-qG-2fa"/>
                         <segue destination="GS5-tg-0a2" kind="relationship" relationship="viewControllers" id="F6x-8e-DzN"/>
                         <segue destination="Sef-1b-RMe" kind="relationship" relationship="viewControllers" id="jxY-ls-jP6"/>
+                        <segue destination="x4h-zY-vTI" kind="relationship" relationship="viewControllers" id="0Ks-Kg-psQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xLy-QQ-ehp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -172,6 +189,7 @@
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
+        <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
         <image name="item5" width="30" height="30"/>
     </resources>
