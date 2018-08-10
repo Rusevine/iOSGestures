@@ -16,9 +16,11 @@
 		4670DC34211D0416009202EF /* item3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC2E211D0416009202EF /* item3.pdf */; };
 		4670DC35211D0416009202EF /* item4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC2F211D0416009202EF /* item4.pdf */; };
 		4670DC36211D0416009202EF /* item1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC30211D0416009202EF /* item1.pdf */; };
-		4670DC37211D0416009202EF /* item2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC31211D0416009202EF /* item2.pdf */; };
 		4670DC38211D0416009202EF /* item5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC32211D0416009202EF /* item5.pdf */; };
 		4670DC39211D0416009202EF /* item6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC33211D0416009202EF /* item6.pdf */; };
+		4670DC3B211D0666009202EF /* item2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC3D211D0666009202EF /* item2.pdf */; };
+		4670DC40211D08DE009202EF /* PanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC3F211D08DE009202EF /* PanGestureViewController.m */; };
+		4670DC43211D08FB009202EF /* PinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC42211D08FB009202EF /* PinchGestureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +37,13 @@
 		4670DC2E211D0416009202EF /* item3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item3.pdf; sourceTree = "<group>"; };
 		4670DC2F211D0416009202EF /* item4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item4.pdf; sourceTree = "<group>"; };
 		4670DC30211D0416009202EF /* item1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item1.pdf; sourceTree = "<group>"; };
-		4670DC31211D0416009202EF /* item2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item2.pdf; sourceTree = "<group>"; };
 		4670DC32211D0416009202EF /* item5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item5.pdf; sourceTree = "<group>"; };
 		4670DC33211D0416009202EF /* item6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item6.pdf; sourceTree = "<group>"; };
+		4670DC3C211D0666009202EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/item2.pdf; sourceTree = "<group>"; };
+		4670DC3E211D08DE009202EF /* PanGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureViewController.h; sourceTree = "<group>"; };
+		4670DC3F211D08DE009202EF /* PanGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureViewController.m; sourceTree = "<group>"; };
+		4670DC41211D08FB009202EF /* PinchGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchGestureViewController.h; sourceTree = "<group>"; };
+		4670DC42211D08FB009202EF /* PinchGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchGestureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +80,19 @@
 				4670DC18211D03F6009202EF /* AppDelegate.h */,
 				4670DC19211D03F6009202EF /* AppDelegate.m */,
 				4670DC1B211D03F6009202EF /* ViewController.h */,
+				4670DC3E211D08DE009202EF /* PanGestureViewController.h */,
+				4670DC3F211D08DE009202EF /* PanGestureViewController.m */,
+				4670DC41211D08FB009202EF /* PinchGestureViewController.h */,
+				4670DC42211D08FB009202EF /* PinchGestureViewController.m */,
 				4670DC1C211D03F6009202EF /* ViewController.m */,
 				4670DC1E211D03F6009202EF /* Main.storyboard */,
 				4670DC21211D03F7009202EF /* Assets.xcassets */,
+				4670DC30211D0416009202EF /* item1.pdf */,
+				4670DC3D211D0666009202EF /* item2.pdf */,
+				4670DC2E211D0416009202EF /* item3.pdf */,
+				4670DC2F211D0416009202EF /* item4.pdf */,
+				4670DC32211D0416009202EF /* item5.pdf */,
+				4670DC33211D0416009202EF /* item6.pdf */,
 				4670DC23211D03F7009202EF /* LaunchScreen.storyboard */,
 				4670DC26211D03F7009202EF /* Info.plist */,
 				4670DC27211D03F7009202EF /* main.m */,
@@ -87,12 +103,6 @@
 		4670DC3A211D0426009202EF /* images */ = {
 			isa = PBXGroup;
 			children = (
-				4670DC30211D0416009202EF /* item1.pdf */,
-				4670DC31211D0416009202EF /* item2.pdf */,
-				4670DC2E211D0416009202EF /* item3.pdf */,
-				4670DC2F211D0416009202EF /* item4.pdf */,
-				4670DC32211D0416009202EF /* item5.pdf */,
-				4670DC33211D0416009202EF /* item6.pdf */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -158,7 +168,7 @@
 				4670DC22211D03F7009202EF /* Assets.xcassets in Resources */,
 				4670DC20211D03F6009202EF /* Main.storyboard in Resources */,
 				4670DC34211D0416009202EF /* item3.pdf in Resources */,
-				4670DC37211D0416009202EF /* item2.pdf in Resources */,
+				4670DC3B211D0666009202EF /* item2.pdf in Resources */,
 				4670DC38211D0416009202EF /* item5.pdf in Resources */,
 				4670DC35211D0416009202EF /* item4.pdf in Resources */,
 				4670DC36211D0416009202EF /* item1.pdf in Resources */,
@@ -173,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4670DC43211D08FB009202EF /* PinchGestureViewController.m in Sources */,
 				4670DC1D211D03F6009202EF /* ViewController.m in Sources */,
 				4670DC28211D03F7009202EF /* main.m in Sources */,
+				4670DC40211D08DE009202EF /* PanGestureViewController.m in Sources */,
 				4670DC1A211D03F6009202EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +208,14 @@
 				4670DC24211D03F7009202EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4670DC3D211D0666009202EF /* item2.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4670DC3C211D0666009202EF /* Base */,
+			);
+			name = item2.pdf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
